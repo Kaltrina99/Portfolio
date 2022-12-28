@@ -1,6 +1,6 @@
 import {RiCodeView, RiComputerLine, RiServerFill} from 'react-icons/ri'
 import {BsBraces, BsCircleFill} from 'react-icons/bs'
-import { IServices, ISkill } from './type'
+import { IProject, IServices, ISkill } from './type'
 
 
 export const services:IServices[]=[
@@ -29,22 +29,22 @@ export const services:IServices[]=[
 export const languages:ISkill[]=[
     {
         name:'.Net Core',
-        level:'70%',
+        level:'80%',
         Icon:BsCircleFill
     },
     {
         name:'SQL Server',
-        level:'60%',
+        level:'70%',
         Icon:BsCircleFill
     },
     {
         name:'JavaScript',
-        level:'60%',
+        level:'70%',
         Icon:BsCircleFill
     },
     {
         name:'React',
-        level:'60%',
+        level:'50%',
         Icon:BsCircleFill
     }, 
     {
@@ -56,18 +56,67 @@ export const languages:ISkill[]=[
 
 export const tools:ISkill[]=[
     {
+        name:'Visual Studio Code',
+        level:'90%',
+        Icon:BsCircleFill
+    },
+    {
         name:'Canva',
         level:'70%',
         Icon:BsCircleFill
     },
     {
         name:'Figma',
-        level:'60%',
+        level:'50%',
         Icon:BsCircleFill
     },
     {
         name:'Krita',
+        level:'75%',
+        Icon:BsCircleFill
+    },
+    {
+        name:'Git',
         level:'80%',
         Icon:BsCircleFill
+    }
+]
+
+export const projects:IProject[]=[
+    {
+        name:"Survey Web - RiVlersim",
+        description:"An web aplication that will manage survey and will help in collecting data, a reconstructed idea of KapSurvey ",
+        image_path:"/images/Rivleresim.png",
+        deployeed_url:"https://github.com/Kaltrina99/Survey.Web",
+        github_url:"https://github.com/Kaltrina99/Survey.Web",
+        category:[".Net Core","Challanges"],
+        tag:[".Net Core","JavaScript","Sql Server","Bootstrap","AMCharts","MailJet"]
+    },
+    {
+        name:"KapSurvey",
+        description:"An web aplication that will manage questionire and will help in collecting data",
+        image_path:"/images/KapSurvey.png",
+        deployeed_url:"https://kapsurvey.com/",
+        github_url:"https://kapsurvey.com/",
+        category:[".Net Core"],
+        tag:[".Net Core","JavaScript","Sql Server","AMCharts","MailJet"]
+    },
+    {
+        name:"Portfolio",
+        description:"My own portfolio website",
+        image_path:"/images/avatar.gif",
+        deployeed_url:"https://github.com/Kaltrina99/Portfolio",
+        github_url:"https://github.com/Kaltrina99/Portfolio",
+        category:["React","Next","Challanges"],
+        tag:["React.js","Next.js","TypeScript","Tailwind"]
+    },
+    {
+        name:"Carpool",
+        description:"A carpool version of an app using React Native",
+        image_path:"/images/Carpool.png",
+        deployeed_url:"https://github.com/Kaltrina99/Carpool",
+        github_url:"https://github.com/Kaltrina99/Carpool",
+        category:["React","Challanges"],
+        tag:["React Native"]
     }
 ]

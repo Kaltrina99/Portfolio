@@ -4,6 +4,8 @@ import { AiFillGithub, AiFillLinkedin, AiFillCodepenSquare, AiFillCode } from 'r
 import { GoLocation } from 'react-icons/go'
 import { GiCloudDownload } from 'react-icons/gi'
 import {useTheme} from 'next-themes'
+import { BsCode } from 'react-icons/bs'
+import { MdDocumentScanner } from 'react-icons/md'
 
 const Sidebar = () => {
     const{theme,setTheme}=useTheme();
@@ -20,10 +22,10 @@ const Sidebar = () => {
             </h3>
             <p className='px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200'>Web Developer</p>
             <a className='flex justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 item-center' 
-            href='' 
-            download='name'>
-                <GiCloudDownload className='w-6 h-6 text-black' />Download Resume</a>
-            <div className='flex justify-around w-9/12 mx-auto my-5 text-black md:w-full'>
+          href="/assets/Kaltrina_Aliu_CV.pdf"
+          download="KaltrinaAliuCV.pdf">
+                <MdDocumentScanner className='w-6 h-6 text-black dark:text-white ' />Download Resume</a>
+            <div className='flex justify-around w-9/12 mx-auto my-5 text-black md:w-full dark:text-white'>
                 <a href='https://www.linkedin.com/in/kaltrina-aliu/'><AiFillLinkedin className='w-8 h-8 cursor-pointer' /></a>
                 <a href='https://github.com/Kaltrina99'><AiFillGithub className='w-8 h-8 cursor-pointer' /></a>
                 <a href='https://codepen.io/Kaltrina99'><AiFillCodepenSquare className='w-8 h-8 cursor-pointer' /></a>
