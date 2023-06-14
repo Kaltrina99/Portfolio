@@ -111,6 +111,15 @@ export const projects:IProject[]=[
         tag:["React.js","Next.js","TypeScript","Tailwind"]
     },
     {
+        name:"Convosio",
+        description:"An web aplication chat system that help your site visitors or clients by offering live chat support.",
+        image_path:"/images/convosio-logo.jpg",
+        deployeed_url:"https://convosio.com/",
+        github_url:"https://convosio.com/",
+        category:[".Net Core"],
+        tag:[".Net Core","JavaScript","Sql Server",]
+    },
+    {
         name:"Carpool",
         description:"A carpool version of an app using React Native",
         image_path:"/images/Carpool.png",
