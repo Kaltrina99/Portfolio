@@ -22,8 +22,8 @@ const Sidebar = () => {
             </h3>
             <p className='px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200'>Web Developer</p>
             <a className='flex justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 item-center' 
-          href="/assets/Kaltrina_Aliu_CV.pdf"
-          download="KaltrinaAliuCV.pdf">
+          href="/assets/KaltrinaALIU_CV.pdf"
+          download="KaltrinaALIU_CV.pdf">
                 <MdDocumentScanner className='w-6 h-6 text-black dark:text-white ' />Download Resume</a>
             <div className='flex justify-around w-9/12 mx-auto my-5 text-black md:w-full dark:text-white'>
                 <a href='https://www.linkedin.com/in/kaltrina-aliu/'><AiFillLinkedin className='w-8 h-8 cursor-pointer' /></a>
