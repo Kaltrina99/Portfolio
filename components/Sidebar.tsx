@@ -41,7 +41,7 @@ const Sidebar = () => {
             <button className='w-8/12 px-5 py-2 my-2 text-white rounded-full cursor-pointer bg-gradient-to-r from-purple-600 to-yellowCS focus:outline-none'
             onClick={()=>window.open('mailto:kaltrina99a@hotmail.com')}
             >Email Me</button>
-            <button onClick={changeTheme} className='w-8/12 px-5 py-2 my-2 text-white rounded-full cursor-pointer bg-gradient-to-r from-purple-600 to-yellowCS'>Toggel Theme</button>
+            <button onClick={changeTheme} className='w-8/12 px-5 py-2 my-2 text-white rounded-full cursor-pointer bg-gradient-to-r from-purple-600 to-yellowCS'>Toggle Theme</button>
         </div>
     )
 }
